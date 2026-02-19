@@ -12,7 +12,7 @@ int main(){
          
 
             soma++;
-            matriz[i][i]=soma;
+            matriz[i][j]=soma;
             printf("%d",matriz[i][j]);
 
 
