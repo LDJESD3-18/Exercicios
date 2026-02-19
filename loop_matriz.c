@@ -13,7 +13,7 @@ int main(){
 
             soma++;
             matriz[i][j]=soma;
-            printf("%d",matriz[i][j]);
+            printf("%d ",matriz[i][j]);
 
 
          }
