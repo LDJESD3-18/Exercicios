@@ -13,10 +13,10 @@ int main(){
     
     for(int i=0;i < LINHA;i++){
          for(int j=0;j<COLUNA ;j++){
-         if(matriz[i][j]== soma){
+         matriz[i][j]== soma;
          soma++;
          printf("%d",matriz[i][j]);
-         }
+         
         }
         printf("\n");
     }
