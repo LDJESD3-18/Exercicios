@@ -22,8 +22,8 @@ int main(){
     }
 
     //busca condicional do elemnto alvo
-     for(int i=0;i < 3;i++){
-         for(int j=0;j<3 ;j++){
+     for(int i=0;i < LINHA ;i++){
+         for(int j=0;j<COLUNA ;j++){
          if(matriz[i][j]== target){
          printf("O valor %d encontrado no índice(%d,%d)\n",target,i,j);
          found=1;
