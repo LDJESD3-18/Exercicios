@@ -1,13 +1,16 @@
 #include <stdio.h>
 
-#define LINHA 5
-#define COLUNA 5
-
 
 
 int main(){
    
-    int matriz[LINHA][COLUNA];
+    int matriz[3][3]={
+      {1,2,3},
+      {4,5,6},
+      {7,8,9}
+
+
+    };
     
     int target =9;
     int found = 0;
@@ -35,7 +38,7 @@ int main(){
      }
 
       if(!found){
-        printf("Elemento %d não encontrado na matriza \n,target");
+        printf("Elemento %d não encontrado na matriz \n",target);
 
 
       }
