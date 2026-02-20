@@ -20,7 +20,7 @@ int main(){
      for(int i=0;i < 3;i++){
          for(int j=0;j<3 ;j++){
          if(matriz[i][j]== target){
-         printf("O valor %d encontrado no indíce(%d,%d)\n",target,i,j);
+         printf("O valor %d encontrado no índice(%d,%d)\n",target,i,j);
          found=1;
          break;
 
